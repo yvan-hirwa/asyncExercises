@@ -4,9 +4,48 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Testing</title>
+
+    <style>
+      .card{
+        width: 300px;
+        height: 200px;
+        border: 3px black;
+        border-radius: 25px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-direction:column;
+        padding: 10px;
+        margin: 0px;
+        /* background-color: aqua; */
+      }
+      #counter{
+        width: 150px;
+        height: 150px;
+        /* padding: 4px; */
+        font-size: 40px;
+      }
+      #clickButton{
+        width: 150px;
+        height: 50px;
+        padding: 4px;
+        font-size: 16px;
+        border: none;
+        border-radius: 10px;
+        background-color: rgb(111, 111, 240);
+        color: white;
+        font-weight: bolder;
+      }
+    </style>
   </head>
   <body>
-    <script src="countryTemp.js" type="module"></script>
+    <div class="card">
+      <div><p id="counter">0</p></div>
+      <div><button id="clickButton">Click me</button></div>
+  </div>
+
+    <script src="buttonCounter.js" type="module"></script>
+    <!-- <script src="countryTemp.js" type="module"></script> -->
     <!-- <script src="userTodoAsync.js" type="module"></script>
     <script src="userTodoPromise.js" type="module"></script> -->
   </body>
