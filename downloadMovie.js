@@ -1,7 +1,3 @@
-// Socratic Study Partner
-// Custom Gem
-// Here are two practical challenges tailored to force you to use for await...of. They cover the two most common use cases: Consuming Streams (Async Generators) and Sequential Processing (Throttling).
-
 // Challenge 1: The "Video Buffer" Simulator
 // Concept: Async Generators & Streaming Imagine you are building a video player. You cannot download the whole movie at once. You need to download "Chunk 1", play it, then download "Chunk 2", play it, etc.
 
